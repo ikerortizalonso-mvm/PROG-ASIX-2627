@@ -1,0 +1,19 @@
+print("---------")
+
+
+numA = int(input("Introdueix el número A: "))
+numB = int(input("Introdueix el número B: "))
+
+
+print("-------")
+
+
+if numA > numB:
+    print("A és més GRAN que B")
+elif numA < numB:
+    print("A és més PETIT que B")
+else:
+    print("A és IGUAL que B")
+
+
+print("-------")

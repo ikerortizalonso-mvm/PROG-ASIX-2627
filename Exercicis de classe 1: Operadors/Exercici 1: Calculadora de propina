@@ -1,0 +1,12 @@
+import_inicial = float(input("Demanar l'import inicial: "))
+perc_propina = float(input("% de propina: "))
+
+
+propina = (import_inicial * perc_propina) / 100
+total = import_inicial + propina
+
+
+print("Import inicial:", import_inicial, "€")
+print("Propina (", perc_propina, "%):", propina, "€")
+print("---------------------")
+print("Total a pagar:", total, "€")

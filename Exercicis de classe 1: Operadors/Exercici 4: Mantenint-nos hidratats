@@ -1,0 +1,8 @@
+temps = float(input("Quantes hores has estat fent exercici? "))
+
+litres = int(temps * 0.5)
+
+if litres == 1:
+    print("Com has estat", temps, "hores fent exercici, has de beure 1 litre de líquid per mantenir-te en un bon nivell d'hidratació")
+else:
+    print("Com has estat", temps, "hores fent exercici, has de beure", litres, "litres de líquid per mantenir-te en un bon nivell d'hidratació")

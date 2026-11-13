@@ -1,0 +1,16 @@
+preu = float(input("El preu actual del Toblerone (en €): "))
+descompte = float(input("El % de descompte actual del Toblerone: "))
+despeses = float(input("L'import de les despeses de les vacances (en €): "))
+benefici = preu * descompte / 100
+unitats = despeses / benefici
+if unitats != int(unitats):
+    unitats = int(unitats) + 1
+else:
+    unitats = int(unitats)
+print("--------------------------------------------------------------------------------")
+print(f"Preu per unitat: {preu}€")
+print(f"Descompte per cada unitat: {descompte}%")
+print(f"Benefici per unitat: {benefici}€")
+print(f"Despeses de les nostres vacances: {despeses}€")
+print("--------------------------------------------------------------------------------")
+print(f"Nº de Toblerones que hem de comprar i revendre per amortitzar les vacances: {unitats}")

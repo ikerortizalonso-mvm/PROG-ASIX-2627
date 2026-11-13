@@ -1,0 +1,19 @@
+diaset = int(input("Día de la setmana: "))
+
+
+if diaset == 1:
+   print("Traducció: Dilluns")
+elif diaset == 2:
+   print("Traducció: Dimarts")
+elif diaset == 3:
+   print("Traducció: Dimecres")
+elif diaset == 4:
+   print("Traducció: Dijous")
+elif diaset == 5:
+   print("Traducció: Divendres")
+elif diaset == 6:
+   print("Traducció: Dissabte")
+elif diaset == 7:
+   print("Traducció: Diumengue")
+else:
+   print("No hi ha més dies de la setmana. T'has equivocat.")

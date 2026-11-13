@@ -1,0 +1,6 @@
+velocitat = float(input("La velocitat (en nusos): "))
+temps = float(input("El temps de vol (en minuts): "))
+
+distancia = velocitat * 1.852 * (temps / 60)
+
+print("La nostra aeronau ha viatjat durant", velocitat, "minuts a", temps, "nusos, de manera que ha recorregut", distancia, "Km")

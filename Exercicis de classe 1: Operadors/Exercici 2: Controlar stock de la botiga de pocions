@@ -1,0 +1,21 @@
+stock = int(input("Import inicial: "))
+
+client1 = int(input("Compra client1: "))
+opera1 = stock - client1
+print("Queden", opera1, "pocions")
+
+client2 = int(input("Compra client2: "))
+opera2 = opera1 - client2
+print("Queden", opera2, "pocions")
+
+client3 = int(input("Compra client3: "))
+opera3 = opera2 - client3
+print("Queden", opera3, "pocions")
+
+print("Stock inicial:", stock)
+print("------------------------")
+print("Compra client 1:", -client1)
+print("Compra client 2:", -client2)
+print("Compra client 3:", -client3)
+print("------------------------")
+print("Stock al final del dia:", opera3, "pocions")
