@@ -1,0 +1,14 @@
+temps = float(input("Quantes hores has estat fent exercici? "))
+litres = int(temps * 0.5)
+
+if temps == 1:
+    txt_temps = "hora"
+else:
+    txt_temps = "hores"
+
+if litres == 1:
+    txt_litres = "litre"
+else:
+    txt_litres = "litres"
+
+print(f"Com has estat {temps} {txt_temps} fent exercici, has de beure {litres} {txt_litres} de líquid per mantenir-te en un bon nivell d'hidratació")
